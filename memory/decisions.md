@@ -262,3 +262,11 @@ W0 的前提（NK1＝改造既有 NK）被本裁決推翻。
 ## 2026-10-01 📋 [記錄] 9/30 信稿「44 條逐字一致」為已發出的錯述
 - 9/30 發品保之信稿稱「44 條逐字一致」；實際為：44 條條號一一對應；英文條文 PE009-14 與 PE 009-18 逐詞一致 43、依序一致但排版不連續 1（1.6）、差異 0；中譯為食藥署對 PE009-14 之譯文，中英不做逐字比對（`specs/refs/annex15_v1_comparison.md`）。
 - 更正文字在阿觀 10/01 回函稿 4-3；本線不另發。
+
+## 2026-10-02 [裁決・Alex] repo 首次離開 Air2：文件編號代號化＋乾淨歷史（M5.8）
+- 來源：M5.8 推前掃描命中真文件編號（約 300 處／41 檔，8 檔檔名帶號）與 T 層清冊約 250 列原稿檔名 → 停推、回報三選一。Alex 原話：「1①／2 同意／鑰加了。」＋補兩條：「代號對照表（代號↔真號↔原稿檔名）放 ~/nk1-data/refs/，repo 內只留代號與 sha8；乾淨歷史推上去之前，六道含全樹重掃到 0 再 push，回報附重掃結果。」
+- 🔑 **repo 首次離開 Air2：2026-10-02**，commit `62730db`（乾淨歷史單一起點），**112 檔**；remote＝GitHub private，deploy key 指紋 `SHA256:CTS9vK1UBORPXK1sQiPUtmbmcHLj7y2cIaXCTz86Yxg`（nk1 專用、write、不重用 canon 鑰）；remote 走 alias `github-nk1`（本機 `Host github.com` 綁 canon 鑰）。
+- 代號層：文件（＝資料夾）116 份 → `T001～T116`；夾內檔 `-f` 序；對照表 `~/nk1-data/refs/doc-codes.tsv`（repo 外、600）。清冊 v0.2 原樣存 `~/nk1-data/refs/T層清冊_full_v0.2.md`；附件⑤ 對外版（真號）存 `~/nk1-data/refs/attachment5_三顧模板參考清單_real.md`，以 `nk1-attach5.py --real` 重出、輸出須落 repo 外。
+- 舊歷史 131 commit 留本機 branch `archive/pre-M5.8`，**永不推**（含真號與原稿檔名）。**作廢的是推送資格，不是證據。**
+- 守衛：③ 加文件編號閘（`nk1_codes.py check`，對照表缺席＝fail-closed）；⑦ ahead-behind（無 remote／fetch 失敗／落後＝FAIL）；`refs-exempt.py --all` 全樹模式。
+- 📌 [記錄] 歧義號（同號兩夾：T048／T049、T052／T053、T064／T065、T033／T034）依上下文人工指定；`test`／`response` 等通用字的資料夾／檔名不換（會誤傷普通字）。

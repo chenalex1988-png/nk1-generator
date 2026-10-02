@@ -38,12 +38,12 @@
 - [ ] ⏳ **審閱意見** → 進 v1 否決判準（J-14）
 
 **可選（等待期間，不需模型）**
-- [ ] 🟢 其他五類骨架＋指引句（T023／002／003／004、T002）
+- [ ] 🟢 其他五類骨架＋指引句（T023／T024／T025／T026、T002）
 - [ ] 🟢 K3 狀態名改 `anchor_located`
 - [ ] 🟢 結果節固定文套用到其他計畫類文件
 
 **未變**
-- 🔵 無 remote（第十二次記）；見 §基礎建設。
+- ✅ ~~無 remote~~ → 2026-10-02 M5.8 已接（origin＝GitHub private；守衛⑦ 改查 ahead-behind）。〔工單稱「第十五次」，本檔記到第十二次，次數以本檔為準〕
 - 🔵 `CLAUDE.md` 前提 2／4 待 Alex 手改（v1 架構無檢索；14 份地基／合約閘措辭過時）。
 
 ## 🗂️ U 編號對照（2026-09-20 落檔）
@@ -145,7 +145,7 @@
   **⑤ 是否容器化、誰有 root ⑥ 可否建本機帳號**（每 scope 一 OS user 是薄管線 v0.2 的地基）
   📌 ②③ 決定離線 wheel 能不能用（`lxml`／`cryptography` 有 C 擴充，**跨 OS／arch 不通用**）；
   ⑤ 決定 I-3 的隔離邊界是檔案權限還是 namespace，**測試寫法會跟著變**。
-- [ ] 🔵 **GitHub remote 未接** — 本機 repo 零 remote。**Air2 無 `gh`、工單禁裝** → 阿K 建不了 repo。
-  需 Alex 於網頁建 private repo，阿K 再接 remote ＋ 比照 ak-platform 設 deploy key。
+- [x] ✅ **GitHub remote 已接**（2026-10-02，M5.8）— Alex 網頁建 private repo；阿K 產 nk1 專用 deploy key（write）、`~/.ssh/config` Host `github-nk1`。
+  乾淨歷史單一起點 `62730db`；舊 131 commit 留本機 `archive/pre-M5.8`（**不推**）。見 decisions 2026-10-02。
 - [x] ✅ **`~/nk1-data/denylist.txt` 已建**（2026-09-19，11 條，權限 600，repo 外，永不 commit）。
   ＝範例 8 條 ＋ T 層掃檔名得出的 3 條實際樣式。**新增規則待 Alex 過目**（內容不貼此處）。
