@@ -1,0 +1,43 @@
+# NK1 指引句 v0 — T027（工單【NK1・M1.1】B3）；每節一句合成指引，零真實內容。
+# order 對應骨架 source_sha8 fbad2c5b（nk1-skel.py v1.2，37 節）；驗證器 scripts/nk1-intake-validate.py --guides
+version: 0
+doc_type: "T027"
+skel_sha8: "fbad2c5b"
+guides:
+  - {order: 1, guide: "本節說明本計畫的核准欄位與核准流程。"}
+  - {order: 2, guide: "本節說明本計畫的目的與適用設備範圍。"}
+  - {order: 3, guide: "本節說明本文件使用的名詞與縮寫。"}
+  - {order: 4, guide: "本節說明各相關部門在本驗證中的職責。"}
+  - {order: 5, guide: "本節說明本驗證的整體安排與執行順序。"}
+  - {order: 6, guide: "本節說明參與驗證人員的名單與簽名方式。"}
+  - {order: 7, guide: "本節說明安裝驗證的範圍與執行要點。"}
+  - {order: 8, guide: "本節說明本測試項目的名稱與目的。"}
+  - {order: 9, guide: "本節說明本測試所需的器具與材料。"}
+  - {order: 10, guide: "本節說明本測試的執行方法與步驟。"}
+  - {order: 11, guide: "本節說明本測試的允收標準。"}
+  - {order: 12, guide: "本節說明測試結果超出標準時的處理方式。"}
+  - {order: 13, guide: "本節說明測試結果的記錄方式。"}
+  - {order: 14, guide: "本節說明測試結果的判定方式。"}
+  - {order: 15, guide: "本節說明本測試的其他注意事項。"}
+  - {order: 16, guide: "本節說明操作驗證的範圍與執行要點。"}
+  - {order: 17, guide: "本節說明本測試項目的名稱與目的。"}
+  - {order: 18, guide: "本節說明本測試所需的器具與材料。"}
+  - {order: 19, guide: "本節說明本測試的執行方法與步驟。"}
+  - {order: 20, guide: "本節說明本測試的允收標準。"}
+  - {order: 21, guide: "本節說明測試結果超出標準時的處理方式。"}
+  - {order: 22, guide: "本節說明測試結果的記錄方式。"}
+  - {order: 23, guide: "本節說明測試結果的判定方式。"}
+  - {order: 24, guide: "本節說明本測試的其他注意事項。"}
+  - {order: 25, guide: "本節說明性能驗證的範圍與執行要點。"}
+  - {order: 26, guide: "本節說明本測試項目的名稱與目的。"}
+  - {order: 27, guide: "本節說明本測試所需的器具與材料。"}
+  - {order: 28, guide: "本節說明本測試的執行方法與步驟。"}
+  - {order: 29, guide: "本節說明本測試的允收標準。"}
+  - {order: 30, guide: "本節說明測試結果超出標準時的處理方式。"}
+  - {order: 31, guide: "本節說明測試結果的記錄方式。"}
+  - {order: 32, guide: "本節說明測試結果的判定方式。"}
+  - {order: 33, guide: "本節說明本測試的其他注意事項。"}
+  - {order: 34, guide: "本節說明驗證結果的彙整方式與判定。"}
+  - {order: 35, guide: "本節說明本計畫的其他補充事項。"}
+  - {order: 36, guide: "本節說明本文件的版本修改紀錄。"}
+  - {order: 37, guide: "本節說明報告的核准欄位與核准流程。"}

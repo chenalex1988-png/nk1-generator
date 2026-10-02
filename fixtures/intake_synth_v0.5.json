@@ -1,0 +1,90 @@
+{
+  "_note": "合成設備 v0.5（M4.3 A）— 同一台 SYN-EQ9-017；所有值皆虛構，零真實內容",
+  "equipment_name": "合成恆溫振盪培養箱",
+  "category": "培養設備",
+  "model": "ZQ-950",
+  "manufacturer": "虛構儀器股份有限公司",
+  "asset_id": "SYN-EQ9-017",
+  "location": "合成廠房第二區",
+  "criticality": "高",
+  "gmp_use": "用於合成細胞培養製程之恆溫振盪培養",
+  "utility_power": "220 V",
+  "utility_air": "無需壓縮空氣",
+  "utility_water": "無需製程用水",
+  "utility_exhaust": "一般排氣",
+  "rated_params": [
+    {
+      "name": "溫度",
+      "value": "37 ℃",
+      "unit": "℃",
+      "range": "36 ℃ 至 38 ℃"
+    },
+    {
+      "name": "轉速",
+      "value": "150 rpm",
+      "unit": "rpm",
+      "range": "140 rpm 至 160 rpm"
+    },
+    {
+      "name": "容量",
+      "value": "80 L",
+      "unit": "L",
+      "range": "80 L"
+    },
+    {
+      "name": "功率",
+      "value": "900 W",
+      "unit": "W",
+      "range": "900 W 以下"
+    }
+  ],
+  "accept_iq": [
+    {
+      "item": "到貨型號序號核對",
+      "criterion": "型號 ZQ-950 與資產編號 SYN-EQ9-017 與訂購規格一致"
+    },
+    {
+      "item": "公用設施接點（電、排氣）",
+      "criterion": "電源 220 V 接點與一般排氣接點位置及規格符合安裝需求"
+    },
+    {
+      "item": "隨機文件與校正證書齊備",
+      "criterion": "操作手冊、圖面、校正證書、零件清單齊備且在有效期內"
+    }
+  ],
+  "accept_oq": [
+    {
+      "item": "溫度均勻性",
+      "criterion": "九點量測，各點與設定值差 1 ℃ 以內"
+    },
+    {
+      "item": "升溫時間",
+      "criterion": "30 min 內達設定溫度"
+    },
+    {
+      "item": "轉速準確度",
+      "criterion": "設定值 5 % 以內"
+    }
+  ],
+  "accept_pq": [
+    {
+      "item": "模擬負載連續運轉時數",
+      "criterion": "模擬負載下連續運轉 72 h 無中斷"
+    },
+    {
+      "item": "連續運轉期間溫度與轉速漂移",
+      "criterion": "溫度漂移 ±0.5 ℃ 以內、轉速漂移 ±3 rpm 以內"
+    },
+    {
+      "item": "與 SOP 操作一致性",
+      "criterion": "運轉操作全程依 SOP-SYN-101 執行，偏離 0 件"
+    }
+  ],
+  "sop_ids": [
+    "SOP-SYN-101",
+    "SOP-SYN-102"
+  ],
+  "owner_dept": "合成工程部",
+  "planned_date": "2026-10-15",
+  "remarks": "合成資料，僅供管線驗證"
+}

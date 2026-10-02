@@ -1,0 +1,21 @@
+{"ref_id": "FAKE-SOP-A-1-1", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "本程序適用於示範廠區內編號 A01 至 A09 之假設備清潔作業。", "status": "effective", "clause_no": "1.1"}
+{"ref_id": "FAKE-SOP-A-1-2", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "清潔用水之電導率應 ≤1.3 μS/cm，並於每批次作業前確認。", "status": "effective", "clause_no": "1.2"}
+{"ref_id": "FAKE-SOP-A-1-3", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "清潔劑濃度以 2.0 % 配製，配製後 24 小時內使用完畢。", "status": "effective", "clause_no": "1.3"}
+{"ref_id": "FAKE-SOP-A-1-4", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "清潔後之乾燥溫度設定為 ≥45 ℃，維持時間不少於 30 分鐘。", "status": "effective", "clause_no": "1.4"}
+{"ref_id": "FAKE-SOP-A-1-5", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "每次清潔作業應由執行人員與覆核人員共同確認並簽署紀錄表。", "status": "effective", "clause_no": "1.5"}
+{"ref_id": "FAKE-SOP-A-1-6", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "清潔驗證之採樣點依附件一之示意圖標示，共計 12 個採樣點。", "status": "effective", "clause_no": "1.6"}
+{"ref_id": "FAKE-SOP-A-1-7", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "若清潔結果不符規格，應立即停止後續作業並依偏差管理程序處理。", "status": "effective", "clause_no": "1.7"}
+{"ref_id": "FAKE-SOP-B-2-1", "kind": "T-ref", "version": "2.1", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "本程序規範示範潔淨室 A 級至 D 級區域之環境監測頻率與判定基準。", "status": "effective", "clause_no": "2.1"}
+{"ref_id": "FAKE-SOP-B-2-2", "kind": "T-ref", "version": "2.1", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "A 級區域之浮游菌監測頻率為每班次一次，採樣體積為 1000 公升。", "status": "effective", "clause_no": "2.2"}
+{"ref_id": "FAKE-SOP-B-2-3", "kind": "T-ref", "version": "2.1", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "沉降菌採樣以直徑 90 公釐之培養皿置放 4 小時為一單位。", "status": "effective", "clause_no": "2.3"}
+{"ref_id": "FAKE-SOP-B-2-4", "kind": "T-ref", "version": "2.1", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "溫濕度紀錄器每 15 分鐘記錄一次，資料保存期限為三年。", "status": "effective", "clause_no": "2.4"}
+{"ref_id": "FAKE-SOP-B-2-5", "kind": "T-ref", "version": "2.1", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "監測結果超出警戒基準時，應於 24 小時內通知區域負責主管。", "status": "effective", "clause_no": "2.5"}
+{"ref_id": "FAKE-SOP-B-2-6", "kind": "T-ref", "version": "2.1", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "監測儀器之校正週期為 12 個月，校正紀錄併入設備檔案保存。", "status": "effective", "clause_no": "2.6"}
+{"ref_id": "FAKE-SOP-B-2-7", "kind": "T-ref", "version": "2.1", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "本程序之修訂須經品質單位主管核可後始得生效。", "status": "effective", "clause_no": "2.7"}
+{"ref_id": "FAKE-SOP-C-3-1", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "本程序規範示範組織內受控文件之編號、發行、修訂與回收作業。", "status": "effective", "clause_no": "3.1"}
+{"ref_id": "FAKE-SOP-C-3-2", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "受控文件之編號格式為 XX-YY-000，其中 XX 代表功能別代碼。", "status": "effective", "clause_no": "3.2"}
+{"ref_id": "FAKE-SOP-C-3-3", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "文件修訂時版次以小數點後一位遞增，重大修訂則進位至整數版。", "status": "effective", "clause_no": "3.3"}
+{"ref_id": "FAKE-SOP-C-3-4", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "作廢文件應加蓋作廢章並集中保管，保管期限不得少於五年。", "status": "effective", "clause_no": "3.4"}
+{"ref_id": "FAKE-SOP-C-3-5", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "電子檔與紙本不一致時，以文管中心留存之紙本正本為準。", "status": "effective", "clause_no": "3.5"}
+{"ref_id": "FAKE-SOP-C-3-6", "kind": "T-ref", "version": "1.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "文件發行清單每季盤點一次，盤點結果由文管人員簽署確認。", "status": "effective", "clause_no": "3.6"}
+{"ref_id": "FAKE-SOP-B-2-4", "kind": "T-ref", "version": "2.0", "text_norm": "（輸入端亂填的 text_norm，驗證器必須忽略並重算）", "text_raw": "溫濕度紀錄器每 30 分鐘記錄一次，資料保存期限為一年。", "status": "superseded", "clause_no": "2.4"}

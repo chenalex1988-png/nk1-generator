@@ -1,0 +1,30 @@
+{
+  "_note": "合成設備（M1.1 B2／M4 用）— 所有值皆虛構，零真實內容",
+  "equipment_name": "合成恆溫振盪培養箱",
+  "category": "培養設備",
+  "model": "ZQ-950",
+  "manufacturer": "虛構儀器股份有限公司",
+  "asset_id": "SYN-EQ9-017",
+  "location": "合成廠房第二區",
+  "criticality": "高",
+  "gmp_use": "用於合成細胞培養製程之恆溫振盪培養",
+  "utility_power": "220 V",
+  "utility_air": "無需壓縮空氣",
+  "utility_water": "無需製程用水",
+  "utility_exhaust": "一般排氣",
+  "rated_params": [
+    {"name": "溫度", "value": "37 ℃", "unit": "℃", "range": "36 ℃ 至 38 ℃"},
+    {"name": "轉速", "value": "150 rpm", "unit": "rpm", "range": "140 rpm 至 160 rpm"},
+    {"name": "容量", "value": "80 L", "unit": "L", "range": "80 L"},
+    {"name": "功率", "value": "900 W", "unit": "W", "range": "900 W 以下"}
+  ],
+  "acceptance_items": [
+    {"item": "溫度均勻性", "method": "九點溫度量測", "criteria": "各點與設定值差 1 ℃ 以內"},
+    {"item": "升溫時間", "method": "計時量測", "criteria": "30 min 內達設定溫度"},
+    {"item": "轉速準確度", "method": "轉速計量測", "criteria": "設定值 5 % 以內"}
+  ],
+  "sop_ids": ["SOP-SYN-101", "SOP-SYN-102"],
+  "owner_dept": "合成工程部",
+  "planned_date": "2026-10-15",
+  "remarks": "合成資料，僅供管線驗證"
+}

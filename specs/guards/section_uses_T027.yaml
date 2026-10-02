@@ -1,0 +1,25 @@
+# NK1 節 → 允許的值用途（工單【M5.0】C-10）— 🔶 阿K 提案；取代分段允收（舊路徑保留、向下相容）
+# 值的用途＝其所在 intake 欄的 uses（specs/intake_v0.6.yaml）；同一值出現在多欄取聯集。值出現在「用途不在本節允許集合」的節即攔。
+# 段落節（iq／oq／pq：段首＋段別測試＋七項子節）＝segment_base ∪ 該段 uses ∪ item_extra（依子節名）。
+version: 1
+doc_kind: "plan"
+result_sections: ["測試結果", "結果判定", "驗證結果"]
+overflow_items: ["超標處理"]
+common:
+  - {section: "S01", uses: ["識別", "日期_核准", "單位"]}
+  - {section: "S02", uses: ["識別", "位置", "關鍵性", "用途", "公用", "額定"]}
+  - {section: "S03", uses: ["識別"]}
+  - {section: "S04", uses: ["單位", "SOP", "偏差SOP"]}
+  - {section: "S05", uses: ["識別", "日期_執行", "日期_啟用", "SOP"]}
+  - {section: "S06", uses: ["單位"]}
+  - {section: "S34", uses: ["識別", "iq允收", "oq允收", "pq允收", "日期_執行", "日期_啟用"]}
+  - {section: "S35", uses: ["識別", "備註"]}
+  - {section: "S36", uses: ["識別"]}
+  - {section: "S37", uses: ["識別", "日期_核准", "單位"]}
+segment_base: ["識別", "位置", "SOP"]
+segments:
+  - {segment: "iq", uses: ["公用", "iq允收", "iq方法"]}
+  - {segment: "oq", uses: ["額定", "oq允收", "oq方法"]}
+  - {segment: "pq", uses: ["額定", "pq允收", "pq方法"]}
+item_extra:
+  - {item: "超標處理", uses: ["偏差SOP"]}

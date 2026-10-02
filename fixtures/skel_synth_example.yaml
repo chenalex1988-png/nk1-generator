@@ -1,0 +1,28 @@
+# 合成骨架範例（nk1-skel.py 輸出形狀）— 節名全為合成代號，非任何真實文件骨架
+doc_type: "SYNTH"
+source_sha8: "00000000"
+extractor: "hand-written synthetic example"
+stats: {sections: 13, tables: 5, repeats: 1, rejected: 0}
+tables_before_first_section: []
+sections:
+  - {order: 1, level: 1, name: "[SEC-A]", tables: [{rows: 4, cols: 4, header: true}]}
+  - {order: 2, level: 1, name: "[SEC-B]", tables: []}
+  - {order: 3, level: 1, name: "[SEC-C]", tables: [{rows: 3, cols: 2, header: false}]}
+  - {order: 4, level: 2, name: "[SEC-R1]", tables: []}
+  - {order: 5, level: 2, name: "[SEC-R2]", tables: [{rows: 2, cols: 4, header: true}]}
+  - {order: 6, level: 2, name: "[SEC-R3]", tables: []}
+  - {order: 7, level: 2, name: "[SEC-R1]", tables: []}
+  - {order: 8, level: 2, name: "[SEC-R2]", tables: [{rows: 2, cols: 4, header: true}]}
+  - {order: 9, level: 2, name: "[SEC-R3]", tables: []}
+  - {order: 10, level: 2, name: "[SEC-R1]", tables: []}
+  - {order: 11, level: 2, name: "[SEC-R2]", tables: [{rows: 2, cols: 4, header: true}]}
+  - {order: 12, level: 2, name: "[SEC-R3]", tables: []}
+  - {order: 13, level: 1, name: "[SEC-Z]", tables: []}
+repeats:
+  - {block: ["[SEC-R1]", "[SEC-R2]", "[SEC-R3]"], count: 3, starts: [4, 7, 10]}
+folded:
+  - "[SEC-A]"
+  - "[SEC-B]"
+  - "[SEC-C]"
+  - {repeat: 1, count: 3}
+  - "[SEC-Z]"

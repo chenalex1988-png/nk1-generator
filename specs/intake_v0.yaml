@@ -1,0 +1,27 @@
+# NK1 設備資料表 v0（工單【NK1・M1.1】B2）— 18 欄；驗證器 scripts/nk1-intake-validate.py
+# sections＝對應 T027 骨架（source_sha8 fbad2c5b，nk1-skel.py v1.2，37 節）的 order；
+#   IQ 單元＝7–15、OQ 單元＝16–24、PQ 單元＝25–33（repeat head＋block 8 節）。
+# type：str／date（YYYY-MM-DD）／list_str／params（≤max 組：name、value、unit、range）／acceptance（≤max 組：item、method、criteria）
+version: 0
+doc_type: "T027"
+skel_sha8: "fbad2c5b"
+skel_sections: 37
+fields:
+  - {key: "equipment_name", label: "設備名稱", type: "str", required: true, sections: [2, 5, 7, 16, 25, 34]}
+  - {key: "category", label: "設備類別", type: "str", required: true, sections: [2, 3]}
+  - {key: "model", label: "型號", type: "str", required: true, sections: [7, 9]}
+  - {key: "manufacturer", label: "製造商", type: "str", required: true, sections: [7, 9]}
+  - {key: "asset_id", label: "資產編號", type: "str", required: true, sections: [2, 7, 34]}
+  - {key: "location", label: "安裝位置", type: "str", required: true, sections: [7, 10]}
+  - {key: "criticality", label: "關鍵性等級", type: "str", required: true, sections: [2, 5]}
+  - {key: "gmp_use", label: "GMP 用途一句", type: "str", required: true, sections: [2]}
+  - {key: "utility_power", label: "公用系統需求－電", type: "str", required: true, sections: [7, 9, 10]}
+  - {key: "utility_air", label: "公用系統需求－氣", type: "str", required: true, sections: [7, 9, 10]}
+  - {key: "utility_water", label: "公用系統需求－水", type: "str", required: true, sections: [7, 9, 10]}
+  - {key: "utility_exhaust", label: "公用系統需求－排氣", type: "str", required: true, sections: [7, 9, 10]}
+  - {key: "rated_params", label: "額定參數", type: "params", max: 6, required: true, sections: [16, 19, 20, 25, 29]}
+  - {key: "acceptance_items", label: "驗收項目", type: "acceptance", max: 5, required: true, sections: [11, 14, 20, 23, 29, 32]}
+  - {key: "sop_ids", label: "相關 SOP 編號", type: "list_str", required: false, sections: [3, 10, 19, 28]}
+  - {key: "owner_dept", label: "負責單位", type: "str", required: true, sections: [4, 6]}
+  - {key: "planned_date", label: "預計驗證日期", type: "date", required: true, sections: [1, 5]}
+  - {key: "remarks", label: "備註", type: "str", required: false, sections: [35]}

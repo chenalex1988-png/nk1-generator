@@ -1,0 +1,36 @@
+# NK1 條號表 v1 對應規格（工單【M5.0】A-1）— 🔶 阿K 提案，待品保／文管在 xlsx 勾改後定版
+# 🔺 M5.4 D（品保 2026-09-30 函 3-4）：「對應章節」用途＝**審閱對照**（不作正文插入位置、不作正文攔截）；補 2.8 → 三段超標處理節 S12／S21／S30。
+# doc_types：六類文件；sections：T027 骨架節（S＋order）或段代號 iq／oq／pq（＝該段全部節：段首＋段別測試＋七項子節）
+# 骨架＝fbad2c5b.v0.5（nk1-skel.py v1.3＋overlay T027 v0.5）：S01 計畫核准／S02 目的及說明／S04 權責／S05 驗證／
+#   S34 驗證結果／S35 備註／S36 修改歷程／S37 報告核准；iq＝S07–S15、oq＝S16–S24、pq＝S25–S33
+version: 1
+doc_types:
+  - "T023"
+  - "T024"
+  - "T025"
+  - "T026"
+  - "T027"
+  - "T002"
+rules:
+  - {from: "1.1", to: "1.8", doc_types: ["T027", "T002"], sections: ["S02", "S04", "S05"]}
+  - {from: "1.6", to: "1.6", doc_types: ["T025"], sections: []}
+  - {from: "2.1", to: "2.10", doc_types: ["T023", "T024", "T025", "T026", "T027", "T002"], sections: ["S01", "S02", "S05", "S34", "S36", "S37"]}
+  - {from: "2.8", to: "2.8", doc_types: [], sections: ["S12", "S21", "S30"]}
+  - {from: "3.1", to: "3.1", doc_types: ["T027", "T002"], sections: ["S05"]}
+  - {from: "3.2", to: "3.2", doc_types: ["T023"], sections: ["S02"]}
+  - {from: "3.3", to: "3.3", doc_types: ["T024"], sections: ["S02"]}
+  - {from: "3.4", to: "3.7", doc_types: ["T027", "T002"], sections: ["iq"]}
+  - {from: "3.8", to: "3.9", doc_types: ["T027", "T002"], sections: ["iq", "S34"]}
+  - {from: "3.10", to: "3.12", doc_types: ["T027", "T002"], sections: ["oq", "S34"]}
+  - {from: "3.12", to: "3.12", doc_types: ["T026"], sections: []}
+  - {from: "3.13", to: "3.14", doc_types: ["T027", "T002"], sections: ["pq", "S34"]}
+  - {from: "4.1", to: "4.2", doc_types: ["T027", "T002"], sections: ["S05", "S34"]}
+  - {from: "8.1", to: "8.3", doc_types: ["T027", "T002", "T023"], sections: ["iq"]}
+  - {from: "11.1", to: "11.7", doc_types: ["T027", "T002"], sections: ["S36"]}
+not_included:
+  - {item: "Annex 11 電腦化系統", reason: ""}
+  - {item: "Part I 第 3 章 廠房設施與設備", reason: ""}
+  - {item: "Part I 第 4 章 文件", reason: ""}
+  - {item: "Annex 2A 先進治療醫藥品", reason: ""}
+  - {item: "Annex 15 第 10 章 清潔確效", reason: ""}
+  - {item: "Annex 15 術語表（Glossary）", reason: ""}

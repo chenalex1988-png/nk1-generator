@@ -1,0 +1,54 @@
+# NK1 條號表 v0 — 設備確效（工單【NK1・M1.1】B1；產生器 scripts/nk1-refs-build.py v1.0.0）
+# 只有【法規名、條號、標題一行】；不含條文全文。標題＝該條所屬小節／章標題。
+# 來源①（英文、條號依據）：https://picscheme.org/docview/11333
+#   PIC/S GMP Guide (PE 009-18) Annexes，sha256 061e785e317287e7658522d071ad188a480496b1eabea2f48b610ab53d49bbb8
+# 來源②（中文標題對照）：https://www.fda.gov.tw/upload/46/2019051415254182544.pdf
+#   食藥署 西藥藥品優良製造規範（第一部、附則），sha256 d7e575b061fe72c38dc06edb735edd013095353d5b79ff939be2277b792181c6
+# 🔴 人抽驗（J-17：每節條號指到實際條文）由 Alex／三顧 QA 執行，本檔未經人抽驗。
+version: 0
+law: "PIC/S GMP Annex 15"
+refs:
+  - {law: "PIC/S GMP Annex 15", clause: "1.1", title: "Organising and planning for qualification and validation", title_zh: "驗證與確效的籌組與規劃", stage: "規劃"}
+  - {law: "PIC/S GMP Annex 15", clause: "1.2", title: "Organising and planning for qualification and validation", title_zh: "驗證與確效的籌組與規劃", stage: "規劃"}
+  - {law: "PIC/S GMP Annex 15", clause: "1.3", title: "Organising and planning for qualification and validation", title_zh: "驗證與確效的籌組與規劃", stage: "規劃"}
+  - {law: "PIC/S GMP Annex 15", clause: "1.4", title: "Organising and planning for qualification and validation", title_zh: "驗證與確效的籌組與規劃", stage: "規劃"}
+  - {law: "PIC/S GMP Annex 15", clause: "1.5", title: "Organising and planning for qualification and validation", title_zh: "驗證與確效的籌組與規劃", stage: "規劃"}
+  - {law: "PIC/S GMP Annex 15", clause: "1.6", title: "Organising and planning for qualification and validation", title_zh: "驗證與確效的籌組與規劃", stage: "規劃"}
+  - {law: "PIC/S GMP Annex 15", clause: "1.7", title: "Organising and planning for qualification and validation", title_zh: "驗證與確效的籌組與規劃", stage: "規劃"}
+  - {law: "PIC/S GMP Annex 15", clause: "1.8", title: "Organising and planning for qualification and validation", title_zh: "驗證與確效的籌組與規劃", stage: "規劃"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.1", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.2", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.3", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.4", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.5", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.6", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.7", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.8", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.9", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "2.10", title: "Documentation, including VMP", title_zh: "文件製作，包括確效主計畫書在內", stage: "文件"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.1", title: "Qualification stages for equipment, facilities, utilities and systems", title_zh: "設備、廠房設施、公用設施與系統的驗證階段", stage: "確認通則"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.2", title: "User requirements specification (URS)", title_zh: "使用者需求規格", stage: "URS"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.3", title: "Design qualification (DQ)", title_zh: "設計驗證", stage: "DQ"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.4", title: "Factory acceptance testing (FAT) /Site acceptance testing (SAT)", title_zh: "工廠驗收測試（FAT）/現場驗收測試（SAT）", stage: "FAT/SAT"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.5", title: "Factory acceptance testing (FAT) /Site acceptance testing (SAT)", title_zh: "工廠驗收測試（FAT）/現場驗收測試（SAT）", stage: "FAT/SAT"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.6", title: "Factory acceptance testing (FAT) /Site acceptance testing (SAT)", title_zh: "工廠驗收測試（FAT）/現場驗收測試（SAT）", stage: "FAT/SAT"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.7", title: "Factory acceptance testing (FAT) /Site acceptance testing (SAT)", title_zh: "工廠驗收測試（FAT）/現場驗收測試（SAT）", stage: "FAT/SAT"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.8", title: "Installation qualification (IQ)", title_zh: "安裝驗證", stage: "IQ"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.9", title: "Installation qualification (IQ)", title_zh: "安裝驗證", stage: "IQ"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.10", title: "Operational qualification (OQ)", title_zh: "操作驗證", stage: "OQ"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.11", title: "Operational qualification (OQ)", title_zh: "操作驗證", stage: "OQ"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.12", title: "Operational qualification (OQ)", title_zh: "操作驗證", stage: "OQ"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.13", title: "Performance qualification (PQ)", title_zh: "性能驗證", stage: "PQ"}
+  - {law: "PIC/S GMP Annex 15", clause: "3.14", title: "Performance qualification (PQ)", title_zh: "性能驗證", stage: "PQ"}
+  - {law: "PIC/S GMP Annex 15", clause: "4.1", title: "Re-qualification", title_zh: "再驗證", stage: "再確效"}
+  - {law: "PIC/S GMP Annex 15", clause: "4.2", title: "Re-qualification", title_zh: "再驗證", stage: "再確效"}
+  - {law: "PIC/S GMP Annex 15", clause: "8.1", title: "Qualification of utilities", title_zh: "公用設施的驗證", stage: "公用系統"}
+  - {law: "PIC/S GMP Annex 15", clause: "8.2", title: "Qualification of utilities", title_zh: "公用設施的驗證", stage: "公用系統"}
+  - {law: "PIC/S GMP Annex 15", clause: "8.3", title: "Qualification of utilities", title_zh: "公用設施的驗證", stage: "公用系統"}
+  - {law: "PIC/S GMP Annex 15", clause: "11.1", title: "Change control", title_zh: "變更管制", stage: "變更"}
+  - {law: "PIC/S GMP Annex 15", clause: "11.2", title: "Change control", title_zh: "變更管制", stage: "變更"}
+  - {law: "PIC/S GMP Annex 15", clause: "11.3", title: "Change control", title_zh: "變更管制", stage: "變更"}
+  - {law: "PIC/S GMP Annex 15", clause: "11.4", title: "Change control", title_zh: "變更管制", stage: "變更"}
+  - {law: "PIC/S GMP Annex 15", clause: "11.5", title: "Change control", title_zh: "變更管制", stage: "變更"}
+  - {law: "PIC/S GMP Annex 15", clause: "11.6", title: "Change control", title_zh: "變更管制", stage: "變更"}
+  - {law: "PIC/S GMP Annex 15", clause: "11.7", title: "Change control", title_zh: "變更管制", stage: "變更"}

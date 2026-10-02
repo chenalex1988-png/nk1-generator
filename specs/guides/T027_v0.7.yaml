@@ -1,0 +1,50 @@
+# NK1 指引句 v0.7 — T027（工單【M5.1】C：測試結果／結果判定／驗證結果三節不走模型，正文固定「待執行後填寫」，表格保留空殼）；其餘同 v0.6。
+# 分段索引：common＝非段落節（依骨架 order）；segment_guides＝iq／oq／pq × {_head（段首節）、_test（段別測試節）、七項子節}。
+# segment_defs＝段別定義，**只寫在 specs、不進正文**（提示可用以約束該段內容範圍）。
+# 對應骨架：fbad2c5b.v0.5（nk1-skel.py v1.3＋overlay T027 v0.5）；驗證器 scripts/nk1-intake-validate.py --guides
+version: 0.7
+doc_type: "T027"
+skel_sha8: "fbad2c5b"
+segment_defs:
+  - {segment: "iq", name: "安裝驗證", def: "到貨與規格核對、安裝位置與環境、公用設施接點、隨機文件（手冊、圖面、校正證書、零件清單）、量測儀器校正狀態、軟體版本與權限"}
+  - {segment: "oq", name: "操作驗證", def: "功能與控制、警報與安全互鎖、關鍵參數在操作範圍上下限之能力、斷電復歸"}
+  - {segment: "pq", name: "性能驗證", def: "實際或模擬製程負載下連續運轉、參數穩定性、與 SOP 一致性"}
+common:
+  - {order: 1, guide: "本節說明本計畫的核准欄位與核准流程。"}
+  - {order: 2, guide: "本節說明本計畫的目的與適用設備範圍。"}
+  - {order: 3, guide: "本節說明本文件使用的名詞與縮寫。"}
+  - {order: 4, guide: "本節說明各相關部門在本驗證中的職責。"}
+  - {order: 5, guide: "本節說明本驗證的整體安排與執行順序。"}
+  - {order: 6, guide: "本節說明參與驗證人員的名單與簽名方式。"}
+  - {order: 34, guide: "本節說明安裝驗證、操作驗證、性能驗證的結果於執行後逐段填寫。", fixed: "待執行後填寫"}
+  - {order: 35, guide: "本節說明本計畫的其他補充事項。"}
+  - {order: 36, guide: "本節說明本文件的版本修改紀錄。"}
+  - {order: 37, guide: "本節說明報告的核准欄位與核准流程。"}
+segment_guides:
+  - {segment: "iq", item: "_head", guide: "本節說明安裝驗證的範圍與執行要點，涵蓋到貨規格、安裝位置與環境、公用設施接點及隨機文件。"}
+  - {segment: "iq", item: "_test", guide: "本節說明安裝驗證的核對項目與目的。"}
+  - {segment: "iq", item: "器具材料", guide: "本節說明安裝驗證所需的核對工具與文件清單，例如型號序號核對表、隨機文件與量測儀器校正紀錄。"}
+  - {segment: "iq", item: "方法步驟", guide: "本節說明到貨與規格核對、安裝位置與環境確認、公用設施接點檢查及隨機文件清點的執行步驟。"}
+  - {segment: "iq", item: "允收標準", guide: "本節說明安裝驗證各核對項目的允收標準，只引用資料表中的安裝驗證允收項目。"}
+  - {segment: "iq", item: "超標處理", guide: "本節說明測試結果超出允收標準時，依資料表所列偏差處理程序 SOP 登錄與處理偏差的方式。"}
+  - {segment: "iq", item: "測試結果", guide: "本節說明本節於驗證執行後填寫。", fixed: "待執行後填寫"}
+  - {segment: "iq", item: "結果判定", guide: "本節說明本節於驗證執行後填寫。", fixed: "待執行後填寫"}
+  - {segment: "iq", item: "備註", guide: "本節說明安裝驗證中量測儀器校正狀態與軟體版本權限等補充事項。"}
+  - {segment: "oq", item: "_head", guide: "本節說明操作驗證的範圍與執行要點，涵蓋功能與控制、警報與安全互鎖、關鍵參數操作範圍及斷電復歸。"}
+  - {segment: "oq", item: "_test", guide: "本節說明操作驗證的測試項目與目的。"}
+  - {segment: "oq", item: "器具材料", guide: "本節說明操作驗證所需的量測儀器與測試設定，例如溫度量測點配置與轉速量測工具。"}
+  - {segment: "oq", item: "方法步驟", guide: "本節說明功能與控制測試、警報與安全互鎖測試、關鍵參數上下限測試及斷電復歸測試的執行步驟。"}
+  - {segment: "oq", item: "允收標準", guide: "本節說明操作驗證各測試項目的允收標準，只引用資料表中的操作驗證允收項目。"}
+  - {segment: "oq", item: "超標處理", guide: "本節說明測試結果超出允收標準時，依資料表所列偏差處理程序 SOP 登錄與處理偏差的方式。"}
+  - {segment: "oq", item: "測試結果", guide: "本節說明本節於驗證執行後填寫。", fixed: "待執行後填寫"}
+  - {segment: "oq", item: "結果判定", guide: "本節說明本節於驗證執行後填寫。", fixed: "待執行後填寫"}
+  - {segment: "oq", item: "備註", guide: "本節說明斷電復歸與警報測試的補充注意事項。"}
+  - {segment: "pq", item: "_head", guide: "本節說明性能驗證的範圍與執行要點，涵蓋模擬製程負載下連續運轉、參數穩定性及與 SOP 一致性。"}
+  - {segment: "pq", item: "_test", guide: "本節說明性能驗證的評估項目與目的。"}
+  - {segment: "pq", item: "器具材料", guide: "本節說明性能驗證所需的模擬負載與連續監測記錄工具。"}
+  - {segment: "pq", item: "方法步驟", guide: "本節說明在實際或模擬製程負載下連續運轉、監測參數穩定性並比對 SOP 操作的執行步驟。"}
+  - {segment: "pq", item: "允收標準", guide: "本節說明性能驗證各項目的允收標準，只引用資料表中的性能驗證允收項目。"}
+  - {segment: "pq", item: "超標處理", guide: "本節說明測試結果超出允收標準時，依資料表所列偏差處理程序 SOP 登錄與處理偏差的方式。"}
+  - {segment: "pq", item: "測試結果", guide: "本節說明本節於驗證執行後填寫。", fixed: "待執行後填寫"}
+  - {segment: "pq", item: "結果判定", guide: "本節說明本節於驗證執行後填寫。", fixed: "待執行後填寫"}
+  - {segment: "pq", item: "備註", guide: "本節說明性能驗證中與 SOP 一致性相關的補充事項。"}

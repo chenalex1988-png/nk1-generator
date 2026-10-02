@@ -1,0 +1,134 @@
+{
+  "claims": [
+    {
+      "claim_id": "G-01",
+      "text": "清潔用水電導率上限之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-A-1-2",
+          "version": "1.0",
+          "clause": "1.2",
+          "anchor": "電導率應"
+        }
+      ]
+    },
+    {
+      "claim_id": "G-02",
+      "text": "清潔劑濃度配製之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-A-1-3",
+          "version": "1.0",
+          "clause": "1.3",
+          "anchor": "２.０ ％"
+        }
+      ]
+    },
+    {
+      "claim_id": "G-03",
+      "text": "乾燥溫度之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-A-1-4",
+          "version": "1.0",
+          "clause": "1.4",
+          "anchor": "≥45 ℃"
+        }
+      ]
+    },
+    {
+      "claim_id": "G-04",
+      "text": "雙人覆核之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-A-1-5",
+          "version": "1.0",
+          "clause": "1.5",
+          "anchor": "覆核人員"
+        }
+      ]
+    },
+    {
+      "claim_id": "G-05",
+      "text": "採樣點數之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-A-1-6",
+          "version": "1.0",
+          "clause": "1.6",
+          "anchor": "12 個採樣點"
+        }
+      ]
+    },
+    {
+      "claim_id": "G-06",
+      "text": "浮游菌採樣體積之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-B-2-2",
+          "version": "2.1",
+          "clause": "2.2",
+          "anchor": "１０００公升"
+        }
+      ]
+    },
+    {
+      "claim_id": "G-07",
+      "text": "培養皿置放時間之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-B-2-3",
+          "version": "2.1",
+          "clause": "2.3",
+          "anchor": "4 小時"
+        }
+      ]
+    },
+    {
+      "claim_id": "G-08",
+      "text": "校正週期之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-B-2-6",
+          "version": "2.1",
+          "clause": "2.6",
+          "anchor": "12 個月"
+        }
+      ]
+    },
+    {
+      "claim_id": "G-09",
+      "text": "文件編號格式之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-C-3-2",
+          "version": "1.0",
+          "clause": "3.2",
+          "anchor": "-YY-000"
+        }
+      ]
+    },
+    {
+      "claim_id": "G-10",
+      "text": "作廢文件保管期限之主張",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-C-3-4",
+          "version": "1.0",
+          "clause": "3.4",
+          "anchor": "不得少於五年"
+        }
+      ]
+    }
+  ]
+}

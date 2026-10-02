@@ -1,0 +1,25 @@
+# NK1 句子閘規則（守衛第 6 道）— 工單【NK1・夜跑二】A 段 2026-09-26；v1.1＝工單【NK1・M1】A 段 2026-09-27
+# 節名候選「擋下」判準：啟發式任一命中 OR 不在詞彙表（section_lexicon.yaml）即擋。判準照工單，不自調。
+# v1.1：前綴移除「需」；長度——純英文節名以詞數計（≤ max_words_en），其餘以字數計（≤ max_len）。
+# 讀取器：scripts/sentence-gate.py（stdlib 小型讀取器，只支援本檔用到的「鍵: 值」與「- 清單」兩種寫法）
+version: 2
+max_len: 20
+max_words_en: 5
+forbidden_chars:
+  - "。"
+  - "，"
+  - "；"
+  - "："
+  - "？"
+  - "！"
+  - "、"
+forbidden_prefixes:
+  - "請"
+  - "應"
+  - "須"
+  - "必須"
+  - "依據"
+  - "若"
+  - "如"
+num_unit_regex: '\d+(\.\d+)?\s*(°C|℃|%|μS/cm|mm|cm|m|kg|g|mg|mL|L|min|h|hr|rpm|Pa|kPa|bar|psi|ppm|CFU|lux|Hz|V|A|W|次|天|年)'
+english_run_min: 6

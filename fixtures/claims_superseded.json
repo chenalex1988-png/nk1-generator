@@ -1,0 +1,17 @@
+{
+  "claims": [
+    {
+      "claim_id": "S-01",
+      "text": "引用了作廢版的保存期限",
+      "refs": [
+        {
+          "kind": "T-ref",
+          "id": "FAKE-SOP-B-2-4",
+          "version": "2.0",
+          "clause": "2.4",
+          "anchor": "保存期限"
+        }
+      ]
+    }
+  ]
+}

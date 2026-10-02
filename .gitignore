@@ -1,0 +1,11 @@
+# 資料目錄整個不進版本（客戶文件、樂迦文件、三顧 GMP 原文、模板語料一律落此）
+data/
+
+# 遮蔽閘的真清單（含實際樣式，不進 repo）
+# 真清單落點＝ ~/nk1-data/denylist.txt；repo 內只留 scripts/denylist.example.txt
+denylist.txt
+
+.DS_Store
+
+# Python venv（docxtpl 等，requirements-docx.txt 重建）
+.venv/

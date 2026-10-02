@@ -1,0 +1,10 @@
+# NK1 骨架 overlay v0.5 — T027（工單【M4.3】B；Alex 2026-09-28 裁 A）
+# nk1-skel.py --overlay：repeat head → segment（iq／oq／pq）；block 首節（原稿佔位「OO測試」）改為該段專屬標題。
+# 📌 原稿 XML 即為「OO」（U+004F ×2，獨立 run），是原稿佔位字，非正規化所致。
+version: 0.5
+doc_type: "T027"
+skel_sha8: "fbad2c5b"
+segments:
+  - {head: "安裝驗證", segment: "iq", block0_title: "安裝驗證測試"}
+  - {head: "操作驗證", segment: "oq", block0_title: "操作驗證測試"}
+  - {head: "性能驗證", segment: "pq", block0_title: "性能驗證測試"}

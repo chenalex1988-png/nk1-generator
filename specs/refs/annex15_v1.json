@@ -1,0 +1,1124 @@
+{
+ "version": 1,
+ "law": "PIC/S GMP Annex 15",
+ "generator": "nk1-refs-v1.py v1.2.0",
+ "sources": {
+  "pics_pe009_18": {
+   "url": "https://picscheme.org/docview/11333",
+   "sha256": "061e785e317287e7658522d071ad188a480496b1eabea2f48b610ab53d49bbb8"
+  },
+  "tfda_2019_pe009_14": {
+   "url": "https://www.fda.gov.tw/upload/46/2019051415254182544.pdf",
+   "sha256": "d7e575b061fe72c38dc06edb735edd013095353d5b79ff939be2277b792181c6"
+  }
+ },
+ "title_zh_source": "食藥署 2019 中英對照版（對應 PE009-14，2018-07-01）",
+ "mapping": "specs/refs/annex15_v1_mapping.yaml（🔶 阿K 提案，待品保勾改）",
+ "correspondence": {
+  "clauses": 44,
+  "number_one_to_one": 44,
+  "pe009_14_vs_18": {
+   "identical": 43,
+   "identical_noncontiguous": 1,
+   "diff": 0
+  },
+  "differences": [
+   {
+    "clause": "1.6",
+    "result": "identical_noncontiguous",
+    "word_coverage": 1.0
+   }
+  ]
+ },
+ "comparison": {
+  "versions": "食藥署 2019《西藥藥品優良製造規範（第一部、附則）》中英對照版（對應 PIC/S PE009-14，2018-07-01）vs PIC/S PE 009-18 Annexes",
+  "method": [
+   "① 條號對齊：自兩份 PDF 抽出附則／Annex 15 文字，以條號（如 3.9）為鍵逐條配對",
+   "② 英文條文比對：食藥署版的英文段（＝PE009-14 原文）對 PE 009-18 英文，去除條號與羅馬數字清單標記後逐詞比對；連續一致＝identical，全詞依序出現但不連續＝identical_noncontiguous（PDF 欄位交錯），其餘＝diff",
+   "③ 中譯：取食藥署版中文段（PE009-14 之譯文）；中譯與英文**不做逐字比對**——中英不同語言，無「逐字」可言"
+  ],
+  "wording_fix": "「44 條逐字一致」更正為：44 條條號一一對應；英文條文 PE009-14 與 PE 009-18 逐詞一致 43 條、依序一致但排版不連續 1 條（1.6）、差異 0 條；中譯為食藥署對 PE009-14 之譯文"
+ },
+ "sections_field_use": "審閱對照（品保 2026-09-30 函 3-4）：不作正文插入位置、不作正文攔截",
+ "doc_types": [
+  "T023",
+  "T024",
+  "T025",
+  "T026",
+  "T027",
+  "T002"
+ ],
+ "not_included": [
+  {
+   "item": "Annex 11 電腦化系統",
+   "reason": ""
+  },
+  {
+   "item": "Part I 第 3 章 廠房設施與設備",
+   "reason": ""
+  },
+  {
+   "item": "Part I 第 4 章 文件",
+   "reason": ""
+  },
+  {
+   "item": "Annex 2A 先進治療醫藥品",
+   "reason": ""
+  },
+  {
+   "item": "Annex 15 第 10 章 清潔確效",
+   "reason": ""
+  },
+  {
+   "item": "Annex 15 術語表（Glossary）",
+   "reason": ""
+  }
+ ],
+ "refs": [
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "1.1",
+   "title": "Organising and planning for qualification and validation",
+   "title_zh": "驗證與確效的籌組與規劃",
+   "stage": "規劃",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "All qualification and validation activities should be planned and take the life cycle of facilities, equipment, utilities, process and product into consideration.",
+   "translation_zh": "所有驗證與確效活動應加以規劃，並將廠房設施、設備、公用設施、製程與產品之生命週期納入考慮。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S02",
+    "S04",
+    "S05"
+   ],
+   "original_sha256": "3e84ccdfe87fb1df752e0257d0ad07604093d66c9741ae9a38f887bec5357c7c"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "1.2",
+   "title": "Organising and planning for qualification and validation",
+   "title_zh": "驗證與確效的籌組與規劃",
+   "stage": "規劃",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Qualification and validation activities should only be performed by suitably trained personnel who follow approved procedures.",
+   "translation_zh": "驗證與確效活動應僅由受過適當訓練的人員並遵循已核准的程序執行。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S02",
+    "S04",
+    "S05"
+   ],
+   "original_sha256": "91aede77cbbada31aab1ad0b3b4047f67752848c9f8c08777e2fcc1c833116b8"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "1.3",
+   "title": "Organising and planning for qualification and validation",
+   "title_zh": "驗證與確效的籌組與規劃",
+   "stage": "規劃",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Qualification/validation personnel should report as defined in the pharmaceutical quality system although this may not necessarily be to a quality management or a quality assurance function. However, there should be appropriate quality oversight over the whole validation life cycle.",
+   "translation_zh": "如同製藥品質系統中所界定，驗證/確效人員應進行提報，雖然並非必需向品質管理或品質保證功能單位報告；但是，在整個確效生命週期中應有適當的品質監督。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S02",
+    "S04",
+    "S05"
+   ],
+   "original_sha256": "93d59743816b9ca4c4992e80fa93d65d940f2a08b15910f16604d65473adb870"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "1.4",
+   "title": "Organising and planning for qualification and validation",
+   "title_zh": "驗證與確效的籌組與規劃",
+   "stage": "規劃",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The key elements of the site qualification and validation programme should be clearly defined and documented in a validation master plan (VMP) or equivalent document.",
+   "translation_zh": "製藥工廠之驗證及確效計畫的關鍵要項應在確效主計畫書或等同的文件中加以清楚地界定，並予以文件化。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S02",
+    "S04",
+    "S05"
+   ],
+   "original_sha256": "95bd42189f537aa32322664497335cd2a3172c794789d2a8a8cc94d734d9fc96"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "1.5",
+   "title": "Organising and planning for qualification and validation",
+   "title_zh": "驗證與確效的籌組與規劃",
+   "stage": "規劃",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The VMP or equivalent document should define the qualification/validation system and include or reference information on at least the following: i. Qualification and Validation policy; ii. The organisational structure including roles and responsibilities for qualification and validation activities; iii. Summary of the facilities, equipment, systems, processes on site and the qualification and validation status; iv. Change control and deviation management for qualification and validation; v. Guidance on developing acceptance criteria; vi. References to existing documents; vii. The qualification and validation strategy, including requalification, where applicable.",
+   "translation_zh": "確效主計畫書或等同的文件應界定驗證/確效系統，且應包含或引述資訊至少如下：i. 驗證與確效政策；ii. 組織架構，包含對於驗證與確效活動的角色與職責在內；iii. 廠房設施、設備、系統、製程與其驗證及確效狀態的摘要；iv. 對於驗證與確效的變更管制與偏差管理；v. 關於開發允收標準的指引；vi. 引述現有文件；vii. 驗證與確效策略，適用時，包含再驗證在內。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S02",
+    "S04",
+    "S05"
+   ],
+   "original_sha256": "6719779c5f78a6f192493883601953e42463d43a4f81e92f450953e47e244ff8"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "1.6",
+   "title": "Organising and planning for qualification and validation",
+   "title_zh": "驗證與確效的籌組與規劃",
+   "stage": "規劃",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "For large and complex projects, planning takes on added importance and separate validation plans may enhance clarity.",
+   "translation_zh": "對於大型與複雜的計畫，規劃顯得額外重要，且分開的確效計畫可以提升清晰度。",
+   "pe009_18_check": "identical_noncontiguous",
+   "doc_types": [
+    "T027",
+    "T002",
+    "T025"
+   ],
+   "sections": [
+    "S02",
+    "S04",
+    "S05"
+   ],
+   "original_sha256": "3d08c457f1343d99f0d5c4bb4a161030c6133c3f2592fa9a4ffcbc2bb32c2a1f"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "1.7",
+   "title": "Organising and planning for qualification and validation",
+   "title_zh": "驗證與確效的籌組與規劃",
+   "stage": "規劃",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "A quality risk management approach should be used for qualification and validation activities. In light of increased knowledge and understanding from any changes during the project phase or during commercial production, the risk assessments should be repeated, as required. The way in which risk assessments are used to support qualification and validation activities should be clearly documented.",
+   "translation_zh": "驗證與確效活動應運用品質風險管理方法。根據來自計畫階段中或商業生產中之任何變更所增加的知識與理解，需要時，應再次執行風險評估。使用風險評估以支持驗證與確效活動的方式，應清楚地文件化。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S02",
+    "S04",
+    "S05"
+   ],
+   "original_sha256": "fd17b36113a4cd66ccafa3828d9c76ce3ccb828bb28995f90cbf5c990c41a61d"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "1.8",
+   "title": "Organising and planning for qualification and validation",
+   "title_zh": "驗證與確效的籌組與規劃",
+   "stage": "規劃",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Appropriate checks should be incorporated into qualification and validation work to ensure the integrity of all data obtained.",
+   "translation_zh": "適當的檢查應納入驗證與確效工作中，以確保所獲得之所有數據的完整性。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S02",
+    "S04",
+    "S05"
+   ],
+   "original_sha256": "e33d8a321d0a8d861bf9adc827f8cb0b7e3fc35ebd98e5a869933b2189dbc606"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.1",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Good documentation practices are important to support knowledge management throughout the product lifecycle.",
+   "translation_zh": "優良文件製作規範對於支持整個產品生命週期的知識管理，是很重要的。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37"
+   ],
+   "original_sha256": "c94b2136dc8fe8ad5af18424108ae6074afec0b3f8ad06f0f75e07138d2dae00"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.2",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "All documents generated during qualification and validation should be approved and authorised by appropriate personnel as defined in the pharmaceutical quality system.",
+   "translation_zh": "在驗證與確效中所產生的所有文件，應由製藥品質系統中所界定的適當人員予以核准與授權。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37"
+   ],
+   "original_sha256": "e9304034c51cc17c8aa65e5feb26d7ea36d4038300d95ee018fe843c2d203d5e"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.3",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The inter-relationship between documents in complex validation projects should be clearly defined.",
+   "translation_zh": "在複雜的確效計畫中，文件之間的相互關係應清楚地界定。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37"
+   ],
+   "original_sha256": "539e9eebf254810520466522bc885ba4e80e6eab8b24e19b43751c9bdb3bed82"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.4",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Validation protocols should be prepared which defines the critical systems, attributes and parameters and the associated acceptance criteria.",
+   "translation_zh": "應製作確效計畫書，以界定關鍵之系統、屬性與參數及其相關的允收標準。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37"
+   ],
+   "original_sha256": "e568a0ed110df2a337630e2b57e0785aa3d70fcf9ba7727e7fc3fbd01b013fa7"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.5",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Qualification documents may be combined together, where appropriate, e.g. installation qualification (IQ) and operational qualification (OQ).",
+   "translation_zh": "合適時，驗證文件可以合併在一起，例如，安裝驗證與操作驗證。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37"
+   ],
+   "original_sha256": "11fbbd05753d11828f41e7bfe209f67365f4ea99b5449908d41dd07f879e94a4"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.6",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Where validation protocols and other documentation are supplied by a third party providing validation services, appropriate personnel at the manufacturing site should confirm suitability and compliance with internal procedures before approval. Vendor protocols may be supplemented by additional documentation/test protocols before use.",
+   "translation_zh": "經由第三方提供確效計畫書與其他文件製作等確效服務時，在核准前，廠內的適當人員應確認其適用性，並且遵從內部程序。使用供應商的計畫書前，可經由追加的文件/測試計畫書加以補充。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37"
+   ],
+   "original_sha256": "37bb930fd9e1de7f9d7d78447b7aca59bdde7a46f11727acc44a65fbfd373457"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.7",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Any significant changes to the approved protocol during execution, e.g. acceptance criteria, operating parameters etc., should be documented as a deviation and be scientifically justified.",
+   "translation_zh": "在執行期間，對於已核准之確效計畫書的任何重要變更，例如，允收標準、操作參數等，應記錄為偏差且有科學性的證明。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37"
+   ],
+   "original_sha256": "b39199763cc2765a603979b303ed711955923ac7bb9df202c9b026dcb83669f3"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.8",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Results which fail to meet the pre-defined acceptance criteria should be recorded as a deviation, and be fully investigated according to local procedures. Any implications for the validation should be discussed in the report.",
+   "translation_zh": "不符合預先界定之允收標準的結果應記錄為偏差，並應依廠內程序予以全面地調查。對確效之任何可能的影響應在報告中加以討論。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37",
+    "S12",
+    "S21",
+    "S30"
+   ],
+   "original_sha256": "32a075f237d9f6d05d3f63f58783ec3ba06178c91b456235bb8ad8e69b118e53"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.9",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The review and conclusions of the validation should be reported and the results obtained summarised against the acceptance criteria. Any subsequent changes to acceptance criteria should be scientifically justified and a final recommendation made as to the outcome of the validation.",
+   "translation_zh": "確效的檢討與結論應予以提報，並且所得結果應對照允收標準加以概述。對於允收標準之任何後續變更，應在科學上證明其合理性，並且作出關於該確效結果的最後建議。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37"
+   ],
+   "original_sha256": "d6a2642e9cf8517d5074ab2e3739aca3f7e54cd5a7c0495ca4ab49e2358b80e9"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "2.10",
+   "title": "Documentation, including VMP",
+   "title_zh": "文件製作，包括確效主計畫書在內",
+   "stage": "文件",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "A formal release for the next stage in the qualification and validation process should be authorised by the relevant responsible personnel either as part of the validation report approval or as a separate summary document. Conditional approval to proceed to the next qualification stage can be given where certain acceptance criteria or deviations have not been fully addressed and there is a documented assessment that there is no significant impact on the next activity.",
+   "translation_zh": "可進入下一階段驗證與確效過程的正式放行，應經由相關負責人員核准，作為確效報告核准的一部分或個別的摘要文件。在某些允收標準或偏差尚未完全解決，且已有文件化評估證明其對下一個活動沒有顯著影響時，則對於進入下一個驗證階段可給予有條件的核准。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023",
+    "T024",
+    "T025",
+    "T026",
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S01",
+    "S02",
+    "S05",
+    "S34",
+    "S36",
+    "S37"
+   ],
+   "original_sha256": "d27b275c22e2ff80c706cd55d41a98c769ba2cce7a2aad564087b7dd689d62e8"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.1",
+   "title": "Qualification stages for equipment, facilities, utilities and systems",
+   "title_zh": "設備、廠房設施、公用設施與系統的驗證階段",
+   "stage": "確認通則",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Qualification activities should consider all stages from initial development of the user requirements specification through to the end of use of the equipment, facility, utility or system. The main stages and some suggested criteria (although this depends on individual project circumstances and may be different) which could be included in each stage are indicated below:",
+   "translation_zh": "設備、廠房設施、公用設施或系統的驗證活動，應考慮從使用者需求規格之初始開發至其終止使用的所有階段。主要階段與包含在各階段之某些建議標準（雖然這些標準是取決於個別計畫情況，而且可能不同） ，如下所示：",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S05"
+   ],
+   "original_sha256": "dff3e84fd46344c683902d06185d953bf617585b124ade7cd5ec92cb5b3fa0a1"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.2",
+   "title": "User requirements specification (URS)",
+   "title_zh": "使用者需求規格",
+   "stage": "URS",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The specification for equipment, facilities, utilities or systems should be defined in a URS and/or a functional specification. The essential elements of quality need to be built in at this stage and any GMP risks mitigated to an acceptable level. The URS should be a point of reference throughout the validation life cycle.",
+   "translation_zh": "對於設備、廠房設施、公用設施或系統的規格 ，應在使用者需求規格及/或在功能規格中加以界定。基本的品質要件需要在此階段予以建立，並且將任何GMP風險降到可接受的程度。使用者需求規格應當是整個確效生命週期的一個參考點。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T023"
+   ],
+   "sections": [
+    "S02"
+   ],
+   "original_sha256": "2b1b87ed3a063b9e5856b61fafc4bbb396d81e73d9bb7e32540f14f8d634e859"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.3",
+   "title": "Design qualification (DQ)",
+   "title_zh": "設計驗證",
+   "stage": "DQ",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The next element in the qualification of equipment, facilities, utilities, or systems is DQ where the compliance of the design with GMP should be demonstrated and documented. The requirements of the user requirements specification should be verified during the design qualification.",
+   "translation_zh": "在設備、廠房設施、公用設施或系統之驗證的下一個要件，就是設計驗證，在該驗證中應證明其設計遵循GMP 並且加以文件化。在設計驗證中應確認使用者需求規格的要求。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T024"
+   ],
+   "sections": [
+    "S02"
+   ],
+   "original_sha256": "a875624ad99b5698b6ed1f4632d775484a2f98d19e4c7e3277db3b7f0ba11717"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.4",
+   "title": "Factory acceptance testing (FAT) /Site acceptance testing (SAT)",
+   "title_zh": "工廠驗收測試（FAT）/現場驗收測試（SAT）",
+   "stage": "FAT/SAT",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Equipment, especially if incorporating novel or complex technology, may be evaluated, if applicable, at the vendor prior to delivery.",
+   "translation_zh": "若適用時，設備可於交貨前在供應商處進行評估，尤其是有新穎或複雜技術時。工廠驗收測試（FAT）/現場驗收測試（SAT）",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "iq"
+   ],
+   "original_sha256": "27475fb6b009b6f31e0ada895ba9f3cc3a955823dafc59ec3632dc6d8fe41b46"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.5",
+   "title": "Factory acceptance testing (FAT) /Site acceptance testing (SAT)",
+   "title_zh": "工廠驗收測試（FAT）/現場驗收測試（SAT）",
+   "stage": "FAT/SAT",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Prior to installation, equipment should be confirmed to comply with the URS/ functional specification at the vendor site, if applicable.",
+   "translation_zh": "若適用時，設備在安裝前，應在供應商的場所確認符合使用者需求規格/功能規格。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "iq"
+   ],
+   "original_sha256": "ad8d010a93d0399d5d302665df685721f96e7951104e0ad7f1c1d75d6188510e"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.6",
+   "title": "Factory acceptance testing (FAT) /Site acceptance testing (SAT)",
+   "title_zh": "工廠驗收測試（FAT）/現場驗收測試（SAT）",
+   "stage": "FAT/SAT",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Where appropriate and justified, documentation review and some tests could be performed at the FAT or other stages without the need to repeat on site at IQ/OQ if it can be shown that the functionality is not affected by the transport and installation.",
+   "translation_zh": "當合適並證明合理時，文件審查與一些測試可在工廠驗收測試或其他階段執行，如果可以顯示其功能不受運輸與安裝影響時，則該等審查與測試在安裝驗證/操作驗證時不需於現場重複。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "iq"
+   ],
+   "original_sha256": "88c44d81d7ab20811d3c7c13c88b2f9d3d62347e69fc39dde452fcd66eec0e58"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.7",
+   "title": "Factory acceptance testing (FAT) /Site acceptance testing (SAT)",
+   "title_zh": "工廠驗收測試（FAT）/現場驗收測試（SAT）",
+   "stage": "FAT/SAT",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "FAT may be supplemented by the execution of a SAT following the receipt of equipment at the manufacturing site.",
+   "translation_zh": "工廠驗收測試可由製藥工廠接收設備後，執行現場驗收測試予以補充。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "iq"
+   ],
+   "original_sha256": "74dbf8aa3881883d89b73474f6fc8cf0655bb311662205ba7bd4028dc7f23743"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.8",
+   "title": "Installation qualification (IQ)",
+   "title_zh": "安裝驗證",
+   "stage": "IQ",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "IQ should be performed on equipment, facilities, utilities, or systems.",
+   "translation_zh": "對於設備、廠房設施、公用設施或系統應執行安裝驗證。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "iq",
+    "S34"
+   ],
+   "original_sha256": "0c963e7570aa1b003d0a103fe919044f451f59d6d9b3049ecbc138fe6e1fabb6"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.9",
+   "title": "Installation qualification (IQ)",
+   "title_zh": "安裝驗證",
+   "stage": "IQ",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "IQ should include, but is not limited to the following: i. Verification of the correct installation of components, instrumentation, equipment, pipe work and services against the engineering drawings and specifications; ii. Verification of the correct installation against pre-defined criteria; iii. Collection and collation of supplier operating and working instructions and maintenance requirements; iv. Calibration of instrumentation; v. Verification of the materials of construction.",
+   "translation_zh": "安裝驗證應包括但不侷限於下列各項：i. 對照工程圖及規格，確認組件、儀器儀表、設備、管路工程與公用設施的正確安裝；ii. 對照預先界定之標準，確認正確安裝；iii. 收集與整理供應商之操作指令與工作指令及維護保養要求；iv. 儀器儀表的校正；v. 建造材質的確認。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "iq",
+    "S34"
+   ],
+   "original_sha256": "0e8c7f5138603ca44f3b350ab16750addf67d088faef42b56926517d5771c863"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.10",
+   "title": "Operational qualification (OQ)",
+   "title_zh": "操作驗證",
+   "stage": "OQ",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "OQ normally follows IQ but depending on the complexity of the equipment, it may be performed as a combined Installation/Operation Qualification (IOQ).",
+   "translation_zh": "操作驗證通常是在安裝驗證之後進行，但視設備的複雜性，得以合併的安裝驗證/操作驗證（IOQ）方式執行。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "oq",
+    "S34"
+   ],
+   "original_sha256": "98225c0a788437bb0b08e87c1de5a1b53881d772d41fc8c994d89957703d66eb"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.11",
+   "title": "Operational qualification (OQ)",
+   "title_zh": "操作驗證",
+   "stage": "OQ",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "OQ should include but is not limited to the following: i. Tests that have been developed from the knowledge of processes, systems and equipment to ensure the system is operating as designed; ii. Tests to confirm upper and lower operating limits, and/or “worst case” conditions.",
+   "translation_zh": "操作驗證應包括但不侷限於下列各項：i. 已從製程、系統與設備之知識開發的測試，以確保系統可按原設計運作；ii. 能確認操作限度之上下限及/或「最差狀況」條件的測試。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "oq",
+    "S34"
+   ],
+   "original_sha256": "4764188f54d36012ab167a1f90e18374b557941e18dec767c716bc7bb051d718"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.12",
+   "title": "Operational qualification (OQ)",
+   "title_zh": "操作驗證",
+   "stage": "OQ",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The completion of a successful OQ should allow the finalisation of standard operating and cleaning procedures, operator training and preventative maintenance requirements.",
+   "translation_zh": "成功之操作驗證的完成，應允許標準作業程序、清潔程序、操作者訓練及預防性維護保養等要求之最終確定。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002",
+    "T026"
+   ],
+   "sections": [
+    "oq",
+    "S34"
+   ],
+   "original_sha256": "227a343b75799b5bde34947d1df5285ad64c317f966a35c0de3391d7dc49eba0"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.13",
+   "title": "Performance qualification (PQ)",
+   "title_zh": "性能驗證",
+   "stage": "PQ",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "PQ should normally follow the successful completion of IQ and OQ. However, it may in some cases be appropriate to perform it in conjunction with OQ or Process Validation.",
+   "translation_zh": "性能驗證通常應在安裝驗證與操作驗證成功完成後執行。但在有些情況，與操作驗證或製程確效合併執行可能是合適的。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "pq",
+    "S34"
+   ],
+   "original_sha256": "3a280745fa3db4c476aea583ef8f55e87fa370f5d1bb2b1f1bfb9d986c29673f"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "3.14",
+   "title": "Performance qualification (PQ)",
+   "title_zh": "性能驗證",
+   "stage": "PQ",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "PQ should include, but is not limited to the following: i. Tests, using production materials, qualified substitutes or simulated product proven to have equivalent behaviour under normal operating conditions with worst case batch sizes. The frequency of sampling used to confirm process control should be justified; ii. Tests should cover the operating range of the intended process, unless documented evidence from the development phases confirming the operational ranges is available.",
+   "translation_zh": "性能驗證應包括但不侷限於下列各項：i. 使用生產原料、合格替代品，或經證明在正常操作條件下具有等同之特性的模擬產品，以最差狀況之批量測試。用於確認製程管制之抽樣頻率，應證明其合理性。ii. 除非來自開發階段之文件化證據可確認操作範圍，否則，測試應涵蓋預期的製程操作範圍。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "pq",
+    "S34"
+   ],
+   "original_sha256": "4193089bbce3085296e01dc75a4d434834f9dd55f7ef6ee358ca8d064e4029fd"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "4.1",
+   "title": "Re-qualification",
+   "title_zh": "再驗證",
+   "stage": "再確效",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Equipment, facilities, utilities and systems should be evaluated at an appropriate frequency to confirm that they remain in a state of control.",
+   "translation_zh": "設備、廠房設施、公用設施與系統應以適當的頻率加以評估，以確認其維持在管制狀態中。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S05",
+    "S34"
+   ],
+   "original_sha256": "553293bf83bd3ded73e07abb18b7844e18b3436abe1fe8e9847ec2ec477c3b6d"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "4.2",
+   "title": "Re-qualification",
+   "title_zh": "再驗證",
+   "stage": "再確效",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Where re-qualification is necessary and performed at a specific time period, the period should be justified and the criteria for evaluation defined. Furthermore, the possibility of small changes over time should be assessed.",
+   "translation_zh": "當再驗證為必要且要在規範期間執行時，應證明該期間的合理性，並且對於評估的標準應加以界定；此外，可能隨時間而產生之小變更，應加以評估。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S05",
+    "S34"
+   ],
+   "original_sha256": "54dc42d75984bb16c373fdfa0eea560c300c8d1fc73654406bc59880a047d685"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "8.1",
+   "title": "Qualification of utilities",
+   "title_zh": "公用設施的驗證",
+   "stage": "公用系統",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The quality of steam, water, air, other gases etc. should be confirmed following installation using the qualification steps described in section 3 above.",
+   "translation_zh": "蒸汽、水、空氣、其他氣體等的品質，應在安裝後使用上述第3 節（設備、廠房設施、公用設施與系統的驗證階段）所描述的驗證步驟加以確認之。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002",
+    "T023"
+   ],
+   "sections": [
+    "iq"
+   ],
+   "original_sha256": "05dbda2584cd38a1cd2cf91b8eb6e024716c6acc18029bb2666b867ec0df6873"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "8.2",
+   "title": "Qualification of utilities",
+   "title_zh": "公用設施的驗證",
+   "stage": "公用系統",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The period and extent of qualification should reflect any seasonal variations, if applicable, and the intended use of the utility.",
+   "translation_zh": "驗證的期間長短與程度，應能反映任何季節上的變動（合適時），並能反映該公用設施之預定用途。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002",
+    "T023"
+   ],
+   "sections": [
+    "iq"
+   ],
+   "original_sha256": "22a0edfa50f29a47b629cc659a71ccc9da574781214f243dd1e330bfccef24d7"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "8.3",
+   "title": "Qualification of utilities",
+   "title_zh": "公用設施的驗證",
+   "stage": "公用系統",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "A risk assessment should be carried out where there may be direct contact with the product, e.g. heating, ventilation and air-conditioning (HVAC) systems, or indirect contact such as through heat exchangers to mitigate any risks of failure.",
+   "translation_zh": "在與產品可能有直接接觸，例如，加熱、通風與空調（HVAC）系統，或間接接觸，例如，有通過熱交換器時，應執行風險評估，以減少任何失敗的風險。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002",
+    "T023"
+   ],
+   "sections": [
+    "iq"
+   ],
+   "original_sha256": "b59a50ba5b4b16cdcb628afa3f87f397fb3871ed37a74a03b83ca308f1e3ace5"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "11.1",
+   "title": "Change control",
+   "title_zh": "變更管制",
+   "stage": "變更",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "The control of change is an important part of knowledge management and should be handled within the pharmaceutical quality system.",
+   "translation_zh": "變更管制是知識管理重要的一部分，且應在製藥品質系統內管控。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S36"
+   ],
+   "original_sha256": "db14c707476ad72f6e84df99e3d3376c4a3171320160e6bb82947591237bf896"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "11.2",
+   "title": "Change control",
+   "title_zh": "變更管制",
+   "stage": "變更",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Written procedures should be in place to describe the actions to be taken if a planned change is proposed to a starting material, product component, process, equipment, premises, product range, method of production or testing, batch size, design space or any other change during the lifecycle that may affect product quality or reproducibility.",
+   "translation_zh": "如果在產品生命週期中提出對起始原料、產品組成物、製程、設備、廠房設施、產品範圍、生產或測試的方法、批量、設計空間可能影響產品品質或再現性之計畫性的變更或任何其它變更時，應具備書面程序，以描述所要採取的行動。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S36"
+   ],
+   "original_sha256": "d859e5069dc2859dcaced4ad9fb84e4c860bda3569363209847e9c7a42b8b580"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "11.3",
+   "title": "Change control",
+   "title_zh": "變更管制",
+   "stage": "變更",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Where design space is used, the impact on changes to the design space should be considered against the registered design space within the marketing authorisation and the need for any regulatory actions assessed.",
+   "translation_zh": "在使用設計空間時，變更對於設計空間之影響，應針對在上市許可內登記的設計空間加以考慮，並評估任何法規行動的必要性。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S36"
+   ],
+   "original_sha256": "7d208e2d87975a184aa4691d2c157b8c0edc7f4384b29371024a8d05110736b9"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "11.4",
+   "title": "Change control",
+   "title_zh": "變更管制",
+   "stage": "變更",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Quality risk management should be used to evaluate planned changes to determine the potential impact on product quality, pharmaceutical quality systems, documentation, validation, regulatory status, calibration, maintenance and on any other system to avoid unintended consequences and to plan for any necessary process validation, verification or requalification efforts.",
+   "translation_zh": "對於評估計畫性的變更應使用品質風險管理，以確定對於產品品質、製藥品質系統、文件系統、確效、法規狀態、校正、維護保養以及任何其他系統的潛在影響，以避免非預期的後果，並規劃必要的製程確效、確認或再驗證工作。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S36"
+   ],
+   "original_sha256": "f02cd3a2f3e423d1f4314b006f54e31d79e5ad1f14859dedb6288feb9924f0af"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "11.5",
+   "title": "Change control",
+   "title_zh": "變更管制",
+   "stage": "變更",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Changes should be authorised and approved by the responsible persons or relevant functional personnel in accordance with the pharmaceutical quality system.",
+   "translation_zh": "變更應依照製藥品質系統，經由權責人員或相關的職能人員予以授權與核准。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S36"
+   ],
+   "original_sha256": "6d3308c10e2994ef27b1fe67b1df975235823e4b0f1e4af1c8ceb54882712cc2"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "11.6",
+   "title": "Change control",
+   "title_zh": "變更管制",
+   "stage": "變更",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Supporting data, e.g. copies of documents, should be reviewed to confirm that the impact of the change has been demonstrated prior to final approval.",
+   "translation_zh": "支持性數據，例如，文件複印本，在最終核准之前，應加以檢討以證明該變更之影響已經確認。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S36"
+   ],
+   "original_sha256": "6b62e706d548ab2fc9143df64c3072163562b6c6a56f2788f895356032e814ef"
+  },
+  {
+   "law": "PIC/S GMP Annex 15",
+   "clause": "11.7",
+   "title": "Change control",
+   "title_zh": "變更管制",
+   "stage": "變更",
+   "version": "PE 009-18",
+   "source": "PE 009-18／食藥署 2019",
+   "translation_version": "食藥署 2019（PE009-14）",
+   "original": "Following implementation, and where appropriate, an evaluation of the effectiveness of change should be carried out to confirm that the change has been successful.",
+   "translation_zh": "在變更執行之後，及合適時，應執行變更之有效性評估，以確認該變更已成功完成。",
+   "pe009_18_check": "identical",
+   "doc_types": [
+    "T027",
+    "T002"
+   ],
+   "sections": [
+    "S36"
+   ],
+   "original_sha256": "ae949f6fa19c2204aa9745175fa6c795c71b9e757fd73bfaddf48a683625447b"
+  }
+ ]
+}

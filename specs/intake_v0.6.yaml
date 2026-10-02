@@ -1,0 +1,37 @@
+# NK1 設備資料表 v0.6（工單【M5.0】B；品保 2026-09-29 回函、Alex 裁「修正nk1」）— 26 欄；驗證器 scripts/nk1-intake-validate.py
+# 由 v0.5 改：①「預計驗證日期」拆為 plan_approval_date／execution_deadline／go_live_date（各自獨立、可空；原欄映射到 execution_deadline）
+#   ② 加 deviation_sop（偏差處理程序 SOP 編號，必填）③ 每段加方法步驟欄組 method_iq／method_oq／method_pq（pq 另含負載定義）
+# uses＝值的用途標籤（M5.0 C-10 值→用途綁定）；節允許的用途集合見 specs/guards/section_uses_T027.yaml。🔶 標籤為阿K 提案。
+# type：str／date（YYYY-MM-DD）／list_str／params／accept（item、criterion）／method（量測點位置、儀器與校正狀態、取樣頻率、執行次數）／method_pq（method＋負載定義）
+version: 0.6
+doc_type: "T027"
+doc_kind: "plan"
+skel_sha8: "fbad2c5b"
+skel_sections: 37
+fields:
+  - {key: "equipment_name", label: "設備名稱", type: "str", required: true, uses: ["識別"], sections: [2, 5, 7, 16, 25, 34]}
+  - {key: "category", label: "設備類別", type: "str", required: true, uses: ["識別"], sections: [2, 3]}
+  - {key: "model", label: "型號", type: "str", required: true, uses: ["識別"], sections: [7, 9]}
+  - {key: "manufacturer", label: "製造商", type: "str", required: true, uses: ["識別"], sections: [7, 9]}
+  - {key: "asset_id", label: "資產編號", type: "str", required: true, uses: ["識別"], sections: [2, 7, 34]}
+  - {key: "location", label: "安裝位置", type: "str", required: true, uses: ["位置"], sections: [7, 10]}
+  - {key: "criticality", label: "關鍵性等級", type: "str", required: true, uses: ["關鍵性"], sections: [2, 5]}
+  - {key: "gmp_use", label: "GMP 用途一句", type: "str", required: true, uses: ["用途"], sections: [2]}
+  - {key: "utility_power", label: "公用系統需求－電", type: "str", required: true, uses: ["公用"], sections: [7, 9, 10]}
+  - {key: "utility_air", label: "公用系統需求－氣", type: "str", required: true, uses: ["公用"], sections: [7, 9, 10]}
+  - {key: "utility_water", label: "公用系統需求－水", type: "str", required: true, uses: ["公用"], sections: [7, 9, 10]}
+  - {key: "utility_exhaust", label: "公用系統需求－排氣", type: "str", required: true, uses: ["公用"], sections: [7, 9, 10]}
+  - {key: "rated_params", label: "額定參數", type: "params", max: 6, required: true, uses: ["額定"], sections: [2, 16, 19, 20, 25, 29]}
+  - {key: "accept_iq", label: "安裝驗證允收項目", type: "accept", min: 1, max: 5, required: true, segment: "iq", uses: ["iq允收"], sections: [7, 8, 9, 10, 11, 12, 13, 14, 15, 34]}
+  - {key: "accept_oq", label: "操作驗證允收項目", type: "accept", min: 1, max: 5, required: true, segment: "oq", uses: ["oq允收"], sections: [16, 17, 18, 19, 20, 21, 22, 23, 24, 34]}
+  - {key: "accept_pq", label: "性能驗證允收項目", type: "accept", min: 1, max: 5, required: true, segment: "pq", uses: ["pq允收"], sections: [25, 26, 27, 28, 29, 30, 31, 32, 33, 34]}
+  - {key: "method_iq", label: "安裝驗證方法步驟", type: "method", required: true, segment: "iq", uses: ["iq方法"], sections: [9, 10]}
+  - {key: "method_oq", label: "操作驗證方法步驟", type: "method", required: true, segment: "oq", uses: ["oq方法"], sections: [18, 19]}
+  - {key: "method_pq", label: "性能驗證方法步驟", type: "method_pq", required: true, segment: "pq", uses: ["pq方法"], sections: [27, 28]}
+  - {key: "sop_ids", label: "相關 SOP 編號", type: "list_str", required: false, uses: ["SOP"], sections: [3, 10, 19, 28]}
+  - {key: "deviation_sop", label: "偏差處理程序 SOP 編號", type: "str", required: true, uses: ["偏差SOP"], sections: [12, 21, 30]}
+  - {key: "owner_dept", label: "負責單位", type: "str", required: true, uses: ["單位"], sections: [4, 6]}
+  - {key: "plan_approval_date", label: "計畫核准日", type: "date", required: false, uses: ["日期_核准"], sections: [1]}
+  - {key: "execution_deadline", label: "預計執行期限", type: "date", required: false, uses: ["日期_執行"], sections: [5, 34]}
+  - {key: "go_live_date", label: "預計啟用日", type: "date", required: false, uses: ["日期_啟用"], sections: [5, 34]}
+  - {key: "remarks", label: "備註", type: "str", required: false, uses: ["備註"], sections: [35]}

@@ -1,0 +1,33 @@
+{
+  "version": "1.1",
+  "source": "工單【NK1・充足度測試 v1.1 重跑】2026-09-26（Alex 貼）",
+  "groups": {
+    "A": "NK／LLM 程式輸出 docx：docProps creator 空 且 created＝1970 epoch",
+    "B": "真人 Word 建檔 docx：creator 非空 且 created 非 epoch",
+    "C": "其餘：【審閱意見回饋】、加密／無法解壓、無 core.xml、待查（creator 空但時間真實）等"
+  },
+  "scope": {
+    "core": {
+      "E1 設備驗證計畫／報告": ["T024", "T027", "T002"],
+      "E2 URS／組成評估／操作維護": ["T023", "T025", "T026"]
+    },
+    "second": {
+      "E3 設備管理程序": ["T003", "T004", "T005", "T006", "T007", "T008"]
+    },
+    "list_only": ["E4", "E5", "E6"]
+  },
+  "prompt_style2_prefixes": ["T023", "T024", "T025", "T026", "T027"],
+  "thresholds": {
+    "R1_sections_min": 5,
+    "R1_overlap_min_pct": 60,
+    "R2_sim_min_pct": 80,
+    "R2_sections_min": 2,
+    "R3_sim_max_pct": 40,
+    "R3_sections_min": 1,
+    "R3_fields_min": 5,
+    "R4_laws_with_clause_min": 1,
+    "R5_reviews_min": 1,
+    "R6_pairs_min": 1
+  },
+  "verdict": "R1、R3、R6 全過＝夠；R1 或 R3 缺＝不夠（優先）；其餘 R6 缺＝可用但要補"
+}
