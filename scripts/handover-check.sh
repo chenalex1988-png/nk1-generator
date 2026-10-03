@@ -51,7 +51,7 @@ echo ""
 # --- ③ 離線生成 ---
 echo "③ 合成資料離線生成（全程監看）"
 if [ -z "${SKEL}" ] || [ ! -f "${SKEL}" ]; then
-  echo "   ⏸ 未跑：未給 --skel 或檔不存在（骨架交付待 Alex 裁，OPEN_ITEMS §4 X1）"
+  echo "   ⏸ 未跑：未給 --skel 或檔不存在（骨架另包交付：NK1_骨架包_v0.7，--skel ~/nk1-data/skel/T027/fbad2c5b.v0.7.yaml）"
 elif [ ! -x "${OLLAMA}" ]; then
   echo "   ⏸ 未跑：找不到 ollama 執行檔（${OLLAMA}；ENVIRONMENT §2、RUNBOOK §4）"
 elif ! command -v lsof >/dev/null; then

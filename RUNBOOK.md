@@ -119,7 +119,7 @@ sleep 5; touch "$W/STOP"; wait                                                  
 python3 scripts/nk1-netwatch.py summary --log "$W/log.jsonl" --phases "$W/phases.jsonl" --md   # exit 0＝全段零外連
 ```
 - **預期**：生成結束印兩輪 docx／內容包 sha 相同；`summary` 各分段「非本機端點」皆 **0**、exit 0。產物只在 `--out-dir`（repo 外）。
-- `<T027>` 為骨架所在資料夾（代號對照見 repo 外對照表）；**骨架交付與否待 Alex 裁**（`OPEN_ITEMS.md` H5／骨架項）。
+- `<T027>` 為骨架所在資料夾：Air2 上是原稿資料夾名（代號對照見 repo 外對照表）；數位經理端照骨架包解壓即為 `T027/`。🔺 2026-10-03：骨架已另包交付（X1 結案，`NK1_骨架包_v0.7`）。
 - 🔴 `--report` 指向 repo 外；要收進 repo 的報告只放統計（零正文）。
 - **常見失敗**：
   - `🔴 模型不存在` → §5 未完成或 serve 未起。
